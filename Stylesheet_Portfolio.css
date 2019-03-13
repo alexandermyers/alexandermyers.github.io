@@ -1,0 +1,116 @@
+body{
+	background-color: #40515B;
+}
+h1{
+	color: #C6DDE9;
+}
+h2{
+    color: #C6DDE9;
+}
+h3{
+  color: #C6DDE9;
+  font-size: 18px;
+}
+.sidenav {
+  height: 100%;
+  width: 150px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #2E3D45; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #B4BBBF;
+  display: block;
+}
+.topnav {
+  background-color: #1b3e49;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #bbdce7 ;
+  color: black;
+}
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+img {
+  border-radius: 25%;
+}
+img:hover {
+  -webkit-filter: saturate(7);
+  filter: saturate(3);
+
+} 
+.container{
+  position: relative;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.button {
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+.pagination a {
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  border-radius: 5px;
+} 
+.pagination a {
+  transition: background-color .3s;
+} 
+.flex-container {
+  display: flex;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+h4{
+  font-size: 60px;
+}
+p{
+  background-color: yellow;
+}
